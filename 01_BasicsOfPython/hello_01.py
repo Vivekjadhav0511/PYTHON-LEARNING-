@@ -1,6 +1,9 @@
-# print("Hello Pyhton")
+print("Hello Pyhton")
 
-def one(n):
+def book(n):
     print(n)
 
-one("Python Function !!")
+book("How You lost Me !!")
+
+book_one = "Gita"
+book_two = "Art Of Not "
