@@ -1,3 +1,7 @@
-from hello_01 import one
+from hello_01 import book
 
-one("Called From Another File")
+book("Called From Another File")
+
+from hello_01 import AddToNumber
+
+AddToNumber(20 , 100)
