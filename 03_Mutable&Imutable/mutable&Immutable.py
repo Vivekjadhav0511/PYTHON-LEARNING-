@@ -1,9 +1,9 @@
 # mutable&Immutable
   
-usernam = "vivek jadhav"
-print(usernam)
-usernam = "userName Has Been Changed"
-print(usernam)
+usernamer = "vivek jadhav"
+print(usernamer)
+usernamer = "userName Has Been Changed"
+print(usernamer)
 
 """ 
 Mutable
@@ -13,10 +13,10 @@ A variable or object that cannot be changed after it's created. For example, you
 
 Here are some other differences between mutable and immutable objects in Python:
 
-# Memory usage: Mutable objects are more memory-intensive than immutable objects because 
+Memory usage: Mutable objects are more memory-intensive than immutable objects because 
 they store a copy of their contents whenever they are changed. 
 
-# Error-proneness: Immutable objects are less prone to errors than mutable objects. 
+#Error-proneness: Immutable objects are less prone to errors than mutable objects. 
 
 # Creating new objects: When you change an immutable object, Python creates a new 
 object with a different memory allocation.  """
