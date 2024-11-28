@@ -1,4 +1,4 @@
-# Objects And DataTypes 
+# Objects And DataTypes in Python 
 
 """ Mutable 
 Values can be modified => Examples: list, dict, set
@@ -23,16 +23,39 @@ dictionary = {
 
 set = set('abc')
 
-file = open('myFile.txt')
+# file = open('myFile.txt')
 
 boolean = True
 
-None = None 
+# None = None 
 
 # functions , modules , classes 
 
 # ADVANCE => decorater , Generator , itarator 
 
+import math
 
+print(math.pi)
 
+username = "vivekjadhav"
+print(len(username))
+print(username[1]) 
+# string does not Support item assignment 
 
+dir(username)
+
+# ______________________________
+
+list = [125, "vivek", 414]
+
+print(len(list),list[0])
+
+dict = {
+    'username' : "mike@456",
+    'age' : 77
+}
+
+print(dict, dict['username'])
+
+tuple = (777,411,44,744)
+print(tuple, tuple[0], len(tuple))
