@@ -59,3 +59,31 @@ print(dict, dict['username'])
 
 tuple = (777,411,44,744)
 print(tuple, tuple[0], len(tuple))
+
+# *************
+
+# Copy & DeepCopy
+
+l1 = [1,2,3]
+l2 = l1
+print(l1)
+print(l2)
+
+""" Change In Referance  """
+
+l1 = "Vivek"     
+print(l1)
+print(l2)
+print(l1 == l2)
+
+import copy
+h2 = copy.copy(l1)
+print("importCopy", h2)
+
+list4 = [1,2,1,5,[4,5,5,[541,888]]]
+list5 = copy.copy(list4)
+list6 = list4 [:]
+print(list5)
+print(list6)
+
+
