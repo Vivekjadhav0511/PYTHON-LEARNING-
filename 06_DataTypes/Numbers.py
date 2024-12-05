@@ -1,4 +1,6 @@
-# Numbers In Python 
+# In Python, numbers are a fundamental data type used for performing mathematical calculations. Python supports several numeric types, each designed for specific use cases.
+
+
 
 a = 5
 b = 6
