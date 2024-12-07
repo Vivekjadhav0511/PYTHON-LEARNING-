@@ -90,6 +90,36 @@ Continue: The loop skips the current iteration when i == 5 and proceeds to the n
 
 Pass: The pass statement does nothing—it serves as a placeholder and allows the loop to continue normally.
 
+_________________________________
+
+# 6. Write a Python function to calculate the factorial of a number.
+
+def factorial(n):
+    
+    if n == 0 or n ==1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+    
+num = int(input("Enter a number to calculate its factorial: "))
+
+# Call the function and print the result
+print(f"The factorial of {num} is: {factorial(num)}")
+
+# *********  Using Loop *********
+
+def factorialUsingLoop(n):
+    result = 1
+    for i in range(1, n + 1): # n = i ex.  n = 5 i = 5 
+        result = result * i 
+    return result
+
+
+# Input from the user
+num = int(input("Enter a number to calculate its factorial: "))
+
+# Call the function and print the result
+print(f"The factorial of {num} is: {factorialUsingLoop(num)}")
 
 
 ```

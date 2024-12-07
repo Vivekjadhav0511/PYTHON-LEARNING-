@@ -118,3 +118,35 @@ num = int(input("Enter a number to calculate its factorial: "))
 
 # Call the function and print the result
 print(f"The factorial of {num} is: {factorialUsingLoop(num)}")
+
+
+7. write a  program to accept a list of integers from user and create a new list containing only even number using list comprehension 
+
+user_input = input("enter a Number With spaces :- ")
+
+Number = [int(i) for i in user_input.split()]
+
+even_Number = [ num for num in Number if num % 2 == 0]
+
+print("even Number :-" , even_Number)
+
+***************
+
+user_input = input("enter a Number With spaces :- ")
+
+print(user_input)
+
+for num in user_input:
+    print(num)
+
+userList = [int(num) for num in  user_input.split( )]
+
+print([int(num)for num in user_input.split()])
+
+even_numbers = []
+
+for num in userList:
+    if num % 2 == 0 :
+        even_numbers.append(num)
+
+print("even Number containing List :- ", even_numbers)
